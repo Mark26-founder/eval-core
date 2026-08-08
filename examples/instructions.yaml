@@ -1,0 +1,24 @@
+cases:
+  - id: inst_1
+    input: "Convert this sentence to uppercase: hello world"
+    expected: "HELLO WORLD"
+    description: "Text transformation instruction"
+    tags: ["instruction", "text"]
+
+  - id: inst_2
+    input: "List three primary colors separated by commas."
+    expected: "red, blue, yellow"
+    description: "List generation instruction"
+    tags: ["instruction", "list"]
+
+  - id: inst_3
+    input: "Translate 'good morning' to Spanish."
+    expected: "buenos días"
+    description: "Translation instruction"
+    tags: ["instruction", "translation"]
+
+  - id: inst_4
+    input: "Provide the next number in this sequence: 2, 4, 6, 8"
+    expected: "10"
+    description: "Pattern recognition instruction"
+    tags: ["instruction", "math"]
