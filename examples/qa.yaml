@@ -1,0 +1,30 @@
+cases:
+  - id: qa_1
+    input: "What is the capital of France?"
+    expected: "Paris"
+    description: "Simple factual question"
+    tags: ["qa", "geography"]
+
+  - id: qa_2
+    input: "Who wrote the novel '1984'?"
+    expected: "George Orwell"
+    description: "Literature question"
+    tags: ["qa", "literature"]
+
+  - id: qa_3
+    input: "What is the result of 15 multiplied by 8?"
+    expected: "120"
+    description: "Simple arithmetic"
+    tags: ["qa", "math"]
+
+  - id: qa_4
+    input: "What is the largest planet in our solar system?"
+    expected: "Jupiter"
+    description: "Science question"
+    tags: ["qa", "astronomy"]
+
+  - id: qa_5
+    input: "In what year did World War II end?"
+    expected: "1945"
+    description: "Historical date question"
+    tags: ["qa", "history"]
