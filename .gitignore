@@ -1,0 +1,24 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables (sensitive data)
+.env
+.env.local
+
+# Build and distribution artifacts
+dist/
+build/
+*.egg-info/
+
+# Pytest cache and coverage
+.pytest_cache/
+.coverage
+htmlcov/
